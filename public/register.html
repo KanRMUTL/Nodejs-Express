@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <form action="/register" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age">
+        </div>
+        <div>
+            <label for="sex">Sex</label>
+            <label for="man">ชาย</label>
+            <input type="radio" name="sex" id="man" value="0">
+            <label for="woman">หญิง</label>
+            <input type="radio" name="sex" id="woman" value="1">
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
